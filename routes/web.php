@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/umat', [EmployeeController::class, 'index'])->name('umat');
+Route::get('/galeri', [EmployeeController::class, 'galeri'])->name('galeri');
 Route::get('/tambahumat', [EmployeeController::class, 'tambahumat'])->name('tambahumat');
 Route::post('/insertdata', [EmployeeController::class, 'insertdata'])->name('insertdata');
 

@@ -17,6 +17,13 @@ class EmployeeController extends Controller
     public function tambahumat(){
         return view('tambahdata');
     }
+    public function galeri(){
+
+        $data = Employee::all();
+       
+        return view('pages.galeri', compact('data'));
+    }
+
 
     public function insertdata(Request $request){
         //dd($request->all());

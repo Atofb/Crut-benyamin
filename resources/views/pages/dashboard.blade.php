@@ -13,18 +13,60 @@
                                     <h1 class="font-weight-bolder">
                                         Pusat Data Gereja Bampel
                                     </h1>
-                                  
                                 </div>
+                               
                             </div>
-                    
                         </div>
                     </div>
                 </div>
             </div>
+            <section>
+                <div class="container">
+                    <div class="row">
+                <div class="col mt-8">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{Asset ('img\IMG_8850.JPG')}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Visualisasi Tablo</h5>
+                              <p class="card-text">Tablo gereja Katolik seringkali menjadi bagian penting dari seni dan budaya Katolik, dan mereka dapat ditemukan dalam gereja-gereja Katolik di seluruh dunia.
+                                 Mereka dapat berfungsi sebagai alat pengajaran dan inspirasi rohani bagi para jemaat.</p>
+                             
+                            </div>
+                          </div>     
+                 </div>
+                 <div class="col mt-8">
+                    <div class="card" style="width: 18rem;">
+                        <img src="{{Asset ('img\IMG_0198.JPG')}}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Rally Rosario</h5>
+                          <p class="card-text">sebuah acara atau kegiatan yang diselenggarakan dalam rangka mengumpulkan banyak orang untuk berdoa Rosario bersama-sama. 
+                            Ini bisa menjadi bentuk doa publik yang diorganisir untuk menghormati Perawan Maria atau memohon perlindungannya.</p>
+                         
+                        </div>
+                      </div>     
+             </div>
+             <div class="col mt-8">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{Asset ('img/AN400707.JPG')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">OMK</h5>
+                      <p class="card-text">Organisasi OMK ( Orang Muda Katolik) adalah organisasi yang ditujukan untuk para pemuda dan remaja Katolik yang ingin terlibat dalam komunitas gereja, pertumbuhan spiritual, dan pelayanan.</p>
+                      
+                    </div>
+                  </div>     
+         </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            
 
         @include('layouts.footers.auth.footer')
     </div>
 @endsection
+
+
 
 @push('js')
     <script src="./assets/js/plugins/chartjs.min.js"></script>
